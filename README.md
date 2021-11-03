@@ -2,7 +2,7 @@
 
 # Viikko1 <h2> 
 
-[gitlog.txt] (https://github.com/Tatkuu/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
+[gitlog.txt](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
   
 http://github.com - automatic!
 [GitHub](http://github.com)
