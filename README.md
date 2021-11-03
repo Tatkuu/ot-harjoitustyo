@@ -2,5 +2,4 @@
 
 # Viikko1 <h2> 
 
-https://github.com/Tatkuu/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt - gitlog.txt
-
+[gitlog.txt] (https://github.com/Tatkuu/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
