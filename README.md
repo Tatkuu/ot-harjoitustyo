@@ -1,6 +1,5 @@
 # Ohjelmistotekniikka, harjoitustyö <h2> Tehtävät
-
-# Viikko1 <h3> 
+# <h2> Viikko 1 
 
 [gitlog.txt](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
   
