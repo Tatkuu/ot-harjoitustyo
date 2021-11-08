@@ -6,7 +6,7 @@
   
 <h2> Dokumentaatiot
 
-[tuntikirjanpito.md](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)  
+**[tuntikirjanpito.md](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)**
 
   
 
