@@ -8,5 +8,13 @@ Sovelluksessa pelaaja ohjaa matoa muistuttavaa oliota, jonka tarkoituksena on ke
 
 [vaatimusmäärittely](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
+## Asennus
+
+## Komentorivitoiminnot
+
+### Testit
+
+### Testikattavuus
+
   
 
