@@ -9,16 +9,28 @@ Sovelluksessa pelaaja ohjaa matoa muistuttavaa oliota, jonka tarkoituksena on ke
 [vaatimusmäärittely](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
 ## Asennus
+Kloonaa repositorio komennolla:
+```
+git clone git@github.com:Tatkuu/ot-harjoitustyo.git ot-harjoitustyo-tatkuu
+```
+Alusta projekti komennolla:
+```
 poetry install
+```
 
 ## Komentorivitoiminnot
 Käynnistä ohjelma komennolla:
+```
 poetry run invoke start
+```
 ### Testit
 Testien suorittaminen komennolla:
+```
 poetry run invoke test
+```
 ### Testikattavuus
 Testikattavuusraportin generointi komennolla:
+```
 poetry run invoke coverage-report
-  
+```  
 
