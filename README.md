@@ -11,7 +11,7 @@ Sovelluksessa pelaaja ohjaa matoa muistuttavaa oliota, jonka tarkoituksena on ke
 ## Asennus
 Kloonaa repositorio komennolla:
 ```
-git clone git@github.com:Tatkuu/ot-harjoitustyo.git ot-harjoitustyo-tatkuu
+git clone git@github.com:Tatkuu/ot-harjoitustyo.git ot_harjoitustyo_tatkuu
 ```
 Alusta projekti komennolla:
 ```
