@@ -9,12 +9,16 @@ Sovelluksessa pelaaja ohjaa matoa muistuttavaa oliota, jonka tarkoituksena on ke
 [vaatimusmäärittely](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 
 ## Asennus
+poetry install
 
 ## Komentorivitoiminnot
-
+Käynnistä ohjelma komennolla:
+poetry run invoke start
 ### Testit
-
+Testien suorittaminen komennolla:
+poetry run invoke test
 ### Testikattavuus
-
+Testikattavuusraportin generointi komennolla:
+poetry run invoke coverage-report
   
 
