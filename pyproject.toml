@@ -5,8 +5,10 @@ description = "snake_game"
 authors = [" Tatu Kuussaari <tatu@kuussaari.fi>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.8"
 invoke = "^1.6.0"
+pygame = "^2.1.0"
+coverage = "^6.1.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
