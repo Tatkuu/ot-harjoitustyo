@@ -42,7 +42,6 @@ def game():
                 running = quit_game(event)
                 if check_direction(event.key, way):
                     way = set_direction(event, snake, way)
-                    print(way)
                     break
         snake.move_snake()
         screen.fill([0, 0, 0])
