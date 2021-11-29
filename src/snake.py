@@ -13,9 +13,9 @@ class Snake:
         self.body[0].move_ip(self.wayection)
 
     def check_bounds(self):
-        x = self.body[0].centerx
-        y = self.body[0].centery
-        if x > 630 or x < 0 or y > 630 or y < 0:
+        x_cord = self.body[0].centerx
+        y_cord = self.body[0].centery
+        if x_cord > 630 or x_cord < 0 or y_cord > 630 or y_cord < 0:
             return True
         return False
 
