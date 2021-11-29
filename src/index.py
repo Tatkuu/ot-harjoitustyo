@@ -1,11 +1,9 @@
 import pygame
 from snake import Snake
 
-way = "up"
 
 def check_direction(key, way):
-    if (key == pygame.K_UP and way == "down" or key == pygame.K_DOWN and way == "up" or
-    key == pygame.K_RIGHT and way == "left" or key == pygame.K_LEFT and way == "right"):
+    if key == pygame.K_UP and way == "down" or key == pygame.K_DOWN and way == "up" or key == pygame.K_RIGHT and way == "left" or key == pygame.K_LEFT and way == "right":
         return False
     return True
 
@@ -35,6 +33,7 @@ def game():
     screen = pygame.display.set_mode((630,630))
     clock = pygame.time.Clock()
     running = True
+    way = "up"
 
     while running:
         for event in pygame.event.get():
