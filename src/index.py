@@ -1,6 +1,8 @@
 import pygame
 from snake import Snake
 
+pygame.init()
+
 def check_direction(key, way):
     if key == pygame.K_UP and way == "down" or key == pygame.K_DOWN and way == "up":
         return False
@@ -29,7 +31,6 @@ def quit_game(event):
     return True
 
 def game():
-    pygame.init()
     snake = Snake()
     screen = pygame.display.set_mode((630,630))
     clock = pygame.time.Clock()
