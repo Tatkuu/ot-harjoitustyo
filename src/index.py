@@ -3,8 +3,9 @@ from snake import Snake
 
 
 def check_direction(key, way):
-    if key == pygame.K_UP and way == "down" or key == pygame.K_DOWN and way == "up" or key == pygame.K_RIGHT and way == "left" or key == pygame.K_LEFT and way == "right":
-        return False
+    if key == pygame.K_UP and way == "down" or key == pygame.K_DOWN and way == "up":
+        if key == pygame.K_RIGHT and way == "left" or key == pygame.K_LEFT and way == "right":
+            return False
     return True
 
 def set_direction(event, snake, way):
@@ -39,8 +40,9 @@ def game():
         for event in pygame.event.get():
             if event.type == pygame.KEYDOWN:
                 running = quit_game(event)
-                if check_direction(event, way):
+                if check_direction(event.key, way):
                     way = set_direction(event, snake, way)
+                    print(way)
                     break
         snake.move_snake()
         screen.fill([0, 0, 0])
