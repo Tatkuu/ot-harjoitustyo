@@ -33,4 +33,8 @@ Testikattavuusraportin generointi komennolla:
 ```
 poetry run invoke coverage-report
 ```  
-
+### Koodin laadun testaus
+Koodin laadun analyysi komennolla:
+```
+poetry run invoke pylint
+```  
