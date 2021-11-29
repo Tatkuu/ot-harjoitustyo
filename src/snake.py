@@ -19,12 +19,12 @@ class Snake:
             return True
         return False
 
-    def change_direction(self, dir):
-        if dir == "up":
+    def change_direction(self, Dir):
+        if Dir == "up":
             self.direction = [0, -30]
-        if dir == "down":
+        if Dir == "down":
             self.direction = [0, 30]
-        if dir == "left":
+        if Dir == "left":
             self.direction = [-30, 0]
-        if dir == "right":
+        if Dir == "right":
             self.direction = [30, 0]

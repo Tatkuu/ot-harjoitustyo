@@ -12,17 +12,15 @@ class TestSnake(unittest.TestCase):
         snake = Snake()
 
         snake.move_snake()
-        x = snake.body[0].centerx
-        y = snake.body[0].centery
-        self.assertEqual([x, y], [315, 285])
+        x_cord = snake.body[0].centerx
+        y_cord = snake.body[0].centery
+        self.assertEqual([x_cord, y_cord], [315, 285])
 
     def test_change_direction(self):
         snake = Snake()
 
         snake.change_direction("left")
         snake.move_snake()
-        x = snake.body[0].centerx
-        y = snake.body[0].centery
-        self.assertEqual([x, y], [285, 315])
-
-
+        x_cord = snake.body[0].centerx
+        y_cord = snake.body[0].centery
+        self.assertEqual([x_cord, y_cord], [285, 315])
