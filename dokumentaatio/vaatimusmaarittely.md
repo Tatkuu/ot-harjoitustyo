@@ -14,5 +14,6 @@ Pelaaja pystyy valitsemaan madon suunnan ohjaamalla madon päätä nuolinäppäi
 - Liikkuminen nuolinäppäimillä
 - Vastakkaiseen suuntaan liikkuminen mahdotonta
 - Madon syödessä ruuan, mato kasvaa pituutta
-- Ruoka ilmestyy uudestaan sen syötyä mihin tahansa muualle kuin paikkaan, josta se syötiin
+- Ruoka ilmestyy uudestaan sen syötyä satunnaiseen paikkaan, paitsi paikkaan josta se viimeksi syötiin
 - Peli loppuu madon osuessa omaan häntäänsä
+- Ruoka ei voi ilmestyä madon päälle
