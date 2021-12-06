@@ -6,3 +6,13 @@ Sovelluksessa pelaaja ohjaa matoa muistuttavaa oliota, jonka tarkoituksena on ke
 Jokainen kerta, kun pelaaja onnistuu keräämään ruudulle ilmestyneen ruuan, kasvaa madon hännän pituus. Mitä pidemmäksi 
 mato kasvaa, sitä vaikeammaksi peli muuttuu. Madon pään osuessa omaan häntäänsä tai ruudun reunoille, peli päättyy. 
 Pelaaja pystyy valitsemaan madon suunnan ohjaamalla madon päätä nuolinäppäimillä.
+
+
+## Toiminnallisuudet
+
+- Peli loppuu madon osuessa seinään tai ESC-näppäintä painamalla
+- Liikkuminen nuolinäppäimillä
+- Vastakkaiseen suuntaan liikkuminen mahdotonta
+- Madon syödessä ruuan, mato kasvaa pituutta
+- Ruoka ilmestyy uudestaan sen syötyä mihin tahansa muualle kuin paikkaan, josta se syötiin
+- Peli loppuu madon osuessa omaan häntäänsä
