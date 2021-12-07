@@ -1,6 +1,6 @@
 import unittest
-from snake import Snake
-from snack import Snack
+from classes.snake import Snake
+from classes.snack import Snack
 
 class TestSnake(unittest.TestCase):
     def test_check_snake_length(self):
