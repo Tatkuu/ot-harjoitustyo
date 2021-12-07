@@ -33,6 +33,10 @@ Testien suorittaminen komennolla:
 ```
 poetry run invoke test
 ```
+tai
+```
+poetry run invoke test
+```
 ### Testikattavuus
 Testikattavuusraportin generointi komennolla:
 ```
