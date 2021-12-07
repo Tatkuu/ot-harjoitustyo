@@ -7,7 +7,7 @@ class TestSnake(unittest.TestCase):
         snake = Snake()
 
         length = len(snake.body)
-        self.assertEqual(length, 1)
+        self.assertEqual(length, 3)
 
     def test_snake_is_moving(self):
         snake = Snake()
@@ -15,7 +15,7 @@ class TestSnake(unittest.TestCase):
         snake.move_snake()
         x_cord = snake.body[0].centerx
         y_cord = snake.body[0].centery
-        self.assertEqual([x_cord, y_cord], [315, 285])
+        self.assertEqual([x_cord, y_cord], [314, 284])
 
     def test_change_direction(self):
         snake = Snake()
@@ -24,11 +24,11 @@ class TestSnake(unittest.TestCase):
         snake.move_snake()
         x_cord = snake.body[0].centerx
         y_cord = snake.body[0].centery
-        self.assertEqual([x_cord, y_cord], [285, 315])
+        self.assertEqual([x_cord, y_cord], [284, 314])
 
     def test_check_snack_spawn(self):
-        snack = Snack()
         snake = Snake()
+        snack = Snack(snake.body)
         x = snack.x
         y = snack.y
         snack.change_spawn(snake.body)
