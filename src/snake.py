@@ -45,6 +45,5 @@ class Snake:
         snake = self.body
         for x in range(1, len(snake)):
             if pygame.Rect.contains(snake[0], snake[x]):
-                print(snake[0], snake[x], x)
                 return True
         return False
