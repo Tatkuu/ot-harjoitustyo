@@ -19,7 +19,7 @@ poetry install
 ```
 tai 
 ```
-poetry install
+python3 -m poetry install
 ```
 
 ## Komentorivitoiminnot
@@ -39,15 +39,23 @@ poetry run invoke test
 ```
 tai
 ```
-poetry run invoke test
+python3 -m poetry run invoke test
 ```
 ### Testikattavuus
 Testikattavuusraportin generointi komennolla:
 ```
 poetry run invoke coverage-report
-```  
+``` 
+tai
+```
+python3 -m poetry run invoke coverage-report
+``` 
 ### Koodin laadun testaus
 Koodin laadun analyysi komennolla:
 ```
 poetry run invoke pylint
 ```  
+tai
+```
+python3 -m poetry run invoke pylint
+``` 
