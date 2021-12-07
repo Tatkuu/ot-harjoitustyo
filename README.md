@@ -23,6 +23,11 @@ Käynnistä ohjelma komennolla:
 ```
 poetry run invoke start
 ```
+tai
+```
+python3 -m poetry run invoke start
+```
+
 ### Testit
 Testien suorittaminen komennolla:
 ```
