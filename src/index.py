@@ -1,6 +1,11 @@
 import pygame
 from snake import Snake
+from snack import Snack
 
+def check_collision(snake, snack):
+    if snake.body[0].centerx + 1 == snack.x and snake.body[0].centery + 1 == snack.y:
+        snack.change_spawn(snake.body)
+        snake.grow_snake()
 
 def check_direction(key, way):
     if (key == pygame.K_UP and way == "down" or key == pygame.K_DOWN and way == "up" or
@@ -31,10 +36,12 @@ def quit_game(event):
 def game():
     pygame.init()
     snake = Snake()
+    snack = Snack(snake.body)
     screen = pygame.display.set_mode((630,630))
     clock = pygame.time.Clock()
     running = True
     way = "up"
+    snack.change_spawn(snake.body)
 
     while running:
         for event in pygame.event.get():
@@ -45,11 +52,13 @@ def game():
                     break
         snake.move_snake()
         screen.fill([0, 0, 0])
-        if snake.check_bounds():
+        if snake.check_bounds() or snake.check_collision():
             break
+        check_collision(snake, snack)
         snake.draw_snake(screen)
+        snack.draw_snack(screen)
         pygame.display.update()
-        clock.tick(3)
+        clock.tick(6)
 
 if __name__ == "__main__":
     game()

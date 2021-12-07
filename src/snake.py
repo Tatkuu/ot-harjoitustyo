@@ -3,14 +3,21 @@ import pygame
 class Snake:
     def __init__(self):
         self.body = []
-        self.body.append(pygame.Rect(300, 300, 30, 30))
-        self.wayection = [0, -30]
+        self.body.append(pygame.Rect(300, 300, 29, 29))
+        self.body.append(pygame.Rect(300, 330, 29, 29))
+        self.body.append(pygame.Rect(300, 360, 29, 29))
+        self.direction = [0, -30]
 
     def draw_snake(self, screen):
-        pygame.draw.rect(screen, (255,0,0), self.body[0])
+        for x in self.body:
+            pygame.draw.rect(screen, (255,0,0), x)
 
     def move_snake(self):
-        self.body[0].move_ip(self.wayection)
+        for x in range(len(self.body) - 1, 0, -1):
+            self.body[x].centerx = self.body[x - 1].centerx
+            self.body[x].centery = self.body[x - 1].centery
+        self.body[0].move_ip(self.direction)
+        return self.body
 
     def check_bounds(self):
         x_cord = self.body[0].centerx
@@ -21,10 +28,23 @@ class Snake:
 
     def change_direction(self, way):
         if way == "up":
-            self.wayection = [0, -30]
+            self.direction = [0, -30]
         if way == "down":
-            self.wayection = [0, 30]
+            self.direction = [0, 30]
         if way == "left":
-            self.wayection = [-30, 0]
+            self.direction = [-30, 0]
         if way == "right":
-            self.wayection = [30, 0]
+            self.direction = [30, 0]
+
+    def grow_snake(self):
+        x = self.body[len(self.body) - 1].centerx - 14
+        y = self.body[len(self.body) - 1].centery - 14
+        self.body.append(pygame.Rect(x, y, 29, 29))
+
+    def check_collision(self):
+        snake = self.body
+        for x in range(1, len(snake)):
+            if pygame.Rect.contains(snake[0], snake[x]):
+                print(snake[0], snake[x], x)
+                return True
+        return False
