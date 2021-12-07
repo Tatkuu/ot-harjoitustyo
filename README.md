@@ -17,6 +17,10 @@ Alusta projekti komennolla:
 ```
 poetry install
 ```
+tai 
+```
+poetry install
+```
 
 ## Komentorivitoiminnot
 Käynnistä ohjelma komennolla:
