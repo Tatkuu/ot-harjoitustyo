@@ -17,24 +17,45 @@ Alusta projekti komennolla:
 ```
 poetry install
 ```
+tai 
+```
+python3 -m poetry install
+```
 
 ## Komentorivitoiminnot
 Käynnistä ohjelma komennolla:
 ```
 poetry run invoke start
 ```
+tai
+```
+python3 -m poetry run invoke start
+```
+
 ### Testit
 Testien suorittaminen komennolla:
 ```
 poetry run invoke test
 ```
+tai
+```
+python3 -m poetry run invoke test
+```
 ### Testikattavuus
 Testikattavuusraportin generointi komennolla:
 ```
 poetry run invoke coverage-report
-```  
+``` 
+tai
+```
+python3 -m poetry run invoke coverage-report
+``` 
 ### Koodin laadun testaus
 Koodin laadun analyysi komennolla:
 ```
 poetry run invoke pylint
 ```  
+tai
+```
+python3 -m poetry run invoke pylint
+``` 
