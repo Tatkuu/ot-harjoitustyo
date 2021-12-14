@@ -30,3 +30,9 @@ def quit_game(event):
     if event.key == pygame.K_ESCAPE:
         return False
     return True
+
+def start_screen(text, buttons, screen):
+    pygame.draw.rect(screen, (255,255,0), buttons[0])
+    pygame.draw.rect(screen, (255,255,0), buttons[1])
+    screen.blit(text.render('PLAY', True, (0,0,0)), (285, 170))
+    screen.blit(text.render('QUIT', True, (0,0,0)), (285, 340))
