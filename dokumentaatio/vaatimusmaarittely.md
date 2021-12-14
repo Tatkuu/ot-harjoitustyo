@@ -10,10 +10,14 @@ Pelaaja pystyy valitsemaan madon suunnan ohjaamalla madon päätä nuolinäppäi
 
 ## Toiminnallisuudet
 
-- Peli loppuu madon osuessa seinään tai ESC-näppäintä painamalla
-- Liikkuminen nuolinäppäimillä
-- Vastakkaiseen suuntaan liikkuminen mahdotonta
-- Madon syödessä ruuan, mato kasvaa pituutta
-- Ruoka ilmestyy uudestaan sen syötyä satunnaiseen paikkaan, paitsi paikkaan josta se viimeksi syötiin
-- Peli loppuu madon osuessa omaan häntäänsä
-- Ruoka ei voi ilmestyä madon päälle
+- Peli loppuu madon osuessa seinään tai ESC-näppäintä painamalla (tehty)
+- Liikkuminen nuolinäppäimillä (tehty)
+- Vastakkaiseen suuntaan liikkuminen mahdotonta (tehty)
+- Madon syödessä ruuan, mato kasvaa pituutta (tehty)
+- Ruoka ilmestyy uudestaan sen syötyä satunnaiseen paikkaan, paitsi paikkaan josta se viimeksi syötiin (tehty)
+- Peli loppuu madon osuessa omaan häntäänsä (tehty)
+- Ruoka ei voi ilmestyä madon päälle (tehty)
+- Aloitusruutu, jossa aloitus sekä lopetus painikkeet (tehty)
+- Pelin loppuessa "game over" teksti (tehty)
+- Pelaaja saa pisteitä madon kasvaessa
+
