@@ -12,7 +12,7 @@ tai
 ```
 python3 -m poetry install
 ```
-Käynnistä ohjelma komennolla:
+Tämän jälkeen ohjelman voi käynnistää komennolla:
 ```
 poetry run invoke start
 ```
