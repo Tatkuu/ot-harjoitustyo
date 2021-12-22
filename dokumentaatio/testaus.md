@@ -10,3 +10,8 @@ testaus tapahtuu luomalla snake-ja snack-oliot, joille luodaan mahdollisia erila
 
 
 Ohjelman toimivuuden testaus tapahtuu manuaalisella testauksella, jossa testataan objektien visuaalista toimintaa ja, jonka avulla pystytään näkemään sovelluksen toimivuus vaaditulla tavalla.   
+
+
+### Toiminnallisuudet
+
+Kaikki [määrittelydokumentin](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md) listaamat toiminnallisuudet on toteutettu
