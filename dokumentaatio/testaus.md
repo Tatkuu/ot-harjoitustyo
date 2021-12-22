@@ -6,6 +6,7 @@ Ohjelmaa on testattu automatisoiduilla Unittesteillä sekä pelin toimintaa ja l
 
 testaus tapahtuu luomalla snake-ja snack-oliot, joille luodaan mahdollisia erilaisia skenaarioita. Tämä mahdollistaa sen, että ohjelman erilaisia tilanteita voidaan testata.
 
-### Manuaalinen testaus
+### Ohjelman toimivuuden testaus
 
-Manuaalisessa testauksessa testataan objektien visuaalista toimintaa, jonka avulla pystytään näkemään sovelluksen toimivuus vaaditulla tavalla. 
+
+Ohjelman toimivuuden testaus tapahtuu manuaalisella testauksella, jossa testataan objektien visuaalista toimintaa ja, jonka avulla pystytään näkemään sovelluksen toimivuus vaaditulla tavalla.   
