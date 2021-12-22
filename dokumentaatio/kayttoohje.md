@@ -20,4 +20,6 @@ tai
 ```
 python3 -m poetry run invoke start
 ```
+## Ohjelman käyttö
 
+Peliä pelataan käyttämällä nuolinäppäimiä. Tavoitteena on kerätä ruuduylle ilmestyviä ruokia ja madon kasvaessa selviytyä mahdollisimman pitkään. Hävitessä pelin, voi joko aloittaa uuden pelin painamalla "play" painiketta tai poistua pelistä painamalla "quit" painiketta.
