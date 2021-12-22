@@ -15,6 +15,7 @@ def game():
     clock = pygame.time.Clock()
     running = True
     play = False
+    score = 0
     way = "up"
     snack.change_spawn(snake.body)
     start_screen(text, buttons, screen)
@@ -38,21 +39,27 @@ def game():
                         break
         if play == True:
             snake.move_snake()
-            screen.fill([0, 0, 0])
+            screen.fill([54, 54, 54])
             if snake.check_bounds() or snake.check_collision():
                 running = False
-            check_collision(snake, snack)
+            if check_collision(snake, snack):
+                score = 1000 + (score * 1.035)
             snake.draw_snake(screen)
             snack.draw_snack(screen)
+            screen.blit(text.render('Score:', True, (255,0,0)), (10, 10))
+            screen.blit(text.render(str(int(score)), True, (255,0,0)), (90, 12))
         pygame.display.update()
         clock.tick(6)
         if not running:
             snake = Snake()
             snack = Snack(snake.body)
             way = "up"
-            screen.fill([0, 0, 0])
+            screen.fill([54, 54, 54])
             start_screen(text, buttons, screen)
-            screen.blit(text.render('GAME OVER', True, (255,0,0)), (235, 100))
+            screen.blit(text.render('GAME OVER', True, (255,0,0)), (235, 50))
+            screen.blit(text.render('Your Score:', True, (255,0,0)), (225, 100))
+            screen.blit(text.render(str(int(score)), True, (255,0,0)), (360, 102))
+            score = 0
             running = True
             play = False
 

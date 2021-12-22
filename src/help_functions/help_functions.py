@@ -4,6 +4,8 @@ def check_collision(snake, snack):
     if snake.body[0].centerx + 1 == snack.x and snake.body[0].centery + 1 == snack.y:
         snack.change_spawn(snake.body)
         snake.grow_snake()
+        return True
+    return False
 
 def check_direction(key, way):
     if (key == pygame.K_UP and way == "down" or key == pygame.K_DOWN and way == "up" or
@@ -32,6 +34,7 @@ def quit_game(event):
     return True
 
 def start_screen(text, buttons, screen):
+    screen.fill([54, 54, 54])
     pygame.draw.rect(screen, (255,255,0), buttons[0])
     pygame.draw.rect(screen, (255,255,0), buttons[1])
     screen.blit(text.render('PLAY', True, (0,0,0)), (285, 170))
