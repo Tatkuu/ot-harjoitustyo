@@ -19,5 +19,5 @@ Pelaaja pystyy valitsemaan madon suunnan ohjaamalla madon päätä nuolinäppäi
 - Ruoka ei voi ilmestyä madon päälle (tehty)
 - Aloitusruutu, jossa aloitus sekä lopetus painikkeet (tehty)
 - Pelin loppuessa "game over" teksti (tehty)
-- Pelaaja saa pisteitä madon kasvaessa
+- Pelaaja saa pisteitä madon kasvaessa (tehty)
 
