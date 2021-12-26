@@ -7,7 +7,7 @@ Sovelluksessa pelaaja ohjaa matoa muistuttavaa oliota, jonka tarkoituksena on ke
 - [käyttöohje](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
 - [tuntikirjanpito](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 - [vaatimusmäärittely](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
-- [Testausdokumentti](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/testaus.md)
+- [testausdokumentti](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/testaus.md)
 
 ## Asennus
 Kloonaa repositorio komennolla:
