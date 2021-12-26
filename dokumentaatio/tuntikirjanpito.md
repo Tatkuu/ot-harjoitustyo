@@ -13,5 +13,5 @@
 |       |      |  |
 |       |      |  |
 |       |      |  |
-|       | tunnit yhteensä: 26    |  |
+|       | tunnit yhteensä: 30    |  |
 
