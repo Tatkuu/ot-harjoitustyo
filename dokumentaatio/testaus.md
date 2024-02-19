@@ -1,17 +1,17 @@
-## Testausdokumentti
+## Program tests
 
-Ohjelmaa on testattu automatisoiduilla Unittesteillä sekä pelin toimintaa ja logiikkaa testattu manuaalisesti.
+The program has been tested with automated Unittests, and the game's functionality and logic have been manually tested.
 
-### Sovelluslogiikkan testaus
+### Program logic tests
 
 testaus tapahtuu luomalla snake-ja snack-oliot, joille luodaan mahdollisia erilaisia skenaarioita. Tämä mahdollistaa sen, että ohjelman erilaisia tilanteita voidaan testata.
 
-### Ohjelman toimivuuden testaus
+### Testing program functionality
 
 
-Ohjelman toimivuuden testaus tapahtuu manuaalisella testauksella, jossa testataan objektien visuaalista toimintaa ja, jonka avulla pystytään näkemään sovelluksen toimivuus vaaditulla tavalla.   
+Testing the program's functionality is carried out through manual testing, where the visual operation of objects is tested, allowing us to see the application's functionality in the required manner.  
 
 
-### Toiminnallisuudet
+### Functionalities
 
 Kaikki [määrittelydokumentin](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md) listaamat toiminnallisuudet on toteutettu
