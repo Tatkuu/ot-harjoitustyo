@@ -1,10 +1,9 @@
-# Snake Peli 
+# Snake Game
+In the application, the player controls a worm-like creature with the objective of collecting food that appears on the screen. Each time the player successfully collects the food that has appeared, the length of the worm's tail increases. The longer the worm grows, the more difficult the game becomes. If the worm's head touches its own tail or the edges of the screen, the game ends. The player can choose the direction of the worm by steering its head with the arrow keys.
 
-Sovelluksessa pelaaja ohjaa matoa muistuttavaa oliota, jonka tarkoituksena on kerätä ruudulle ilmestyviä ruokia. Jokainen kerta, kun pelaaja onnistuu keräämään ruudulle ilmestyneen ruuan, kasvaa madon hännän pituus. Mitä pidemmäksi mato kasvaa, sitä vaikeammaksi peli muuttuu. Madon pään osuessa omaan häntäänsä tai ruudun reunoille, peli päättyy. Pelaaja pystyy valitsemaan madon suunnan ohjaamalla madon päätä nuolinäppäimillä.
+## Documentations
 
-## Dokumentaatiot
-
-- [käyttöohje](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
+- [user manual](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
 - [tuntikirjanpito](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 - [vaatimusmäärittely](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 - [testausdokumentti](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/testaus.md)
