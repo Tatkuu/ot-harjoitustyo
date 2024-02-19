@@ -1,5 +1,5 @@
 # Snake Game
-In the application, the player controls a worm-like creature with the objective of collecting food that appears on the screen. Each time the player successfully collects the food that has appeared, the length of the worm's tail increases. The longer the worm grows, the more difficult the game becomes. If the worm's head touches its own tail or the edges of the screen, the game ends. The player can choose the direction of the worm by steering its head with the arrow keys.
+This is a program development [course](https://studies.helsinki.fi/kurssit/opintojakso/otm-e0c98717-0b6e-46b4-8775-ee996712347c?cpId=hy-lv-74) in Univeristy of Helsinki, where student has to make a working program from scratch. In the application, the player controls a worm-like creature with the objective of collecting food that appears on the screen. Each time the player successfully collects the food that has appeared, the length of the worm's tail increases. The longer the worm grows, the more difficult the game becomes. If the worm's head touches its own tail or the edges of the screen, the game ends. The player can choose the direction of the worm by steering its head with the arrow keys.
 
 ## Documentations
 
