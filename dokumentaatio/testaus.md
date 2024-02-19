@@ -14,4 +14,4 @@ Testing the program's functionality is carried out through manual testing, where
 
 ### Functionalities
 
-Kaikki [määrittelydokumentin](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md) listaamat toiminnallisuudet on toteutettu
+All functionalities have been completed in (in finnish) [määrittelydokumentin](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md) 
