@@ -8,54 +8,54 @@ In the application, the player controls a worm-like creature with the objective 
 - [vaatimusmäärittely](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 - [testausdokumentti](https://github.com/Tatkuu/ot-harjoitustyo/blob/master/dokumentaatio/testaus.md)
 
-## Asennus
-Kloonaa repositorio komennolla:
+## Installation
+Clone repository:
 ```
 git clone git@github.com:Tatkuu/ot-harjoitustyo.git ot_harjoitustyo_tatkuu
 ```
-Alusta projekti komennolla:
+Initialize project:
 ```
 poetry install
 ```
-tai 
+or
 ```
 python3 -m poetry install
 ```
 
-## Komentorivitoiminnot
-Käynnistä ohjelma komennolla:
+## Commandline commands
+Start program:
 ```
 poetry run invoke start
 ```
-tai
+or
 ```
 python3 -m poetry run invoke start
 ```
 
-### Testit
-Testien suorittaminen komennolla:
+### Tests
+Run tests:
 ```
 poetry run invoke test
 ```
-tai
+or
 ```
 python3 -m poetry run invoke test
 ```
-### Testikattavuus
-Testikattavuusraportin generointi komennolla:
+### Test coverage
+Generate test coverage report:
 ```
 poetry run invoke coverage-report
 ``` 
-tai
+or
 ```
 python3 -m poetry run invoke coverage-report
 ``` 
-### Koodin laadun testaus
-Koodin laadun analyysi komennolla:
+### Code quality tests
+Run quality tests:
 ```
 poetry run invoke pylint
 ```  
-tai
+or
 ```
 python3 -m poetry run invoke pylint
 ``` 
